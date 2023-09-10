@@ -1,13 +1,12 @@
 package com.practice.BookMyShowApplication.dtos;
 
+
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class BookMovieResponseDto {
+public class SignUpUserResponseDto {
     private ResponseStatus responseStatus;
-    private int amount;
-
-    private Long bookingId;
+    private Long userId;
 }
